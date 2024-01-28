@@ -17,10 +17,21 @@ header > nav {
 }
 
 nav > a{
-    color:rgb(8, 8, 8);
+    color:rgb(8, 8, 8) !important;
     font-weight:bold;
-    border-color:rgb(255, 255, 255);
-    border-style: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    border-right: solid;
+}
+
+nav > a:hover{
+    background-color: beige;
+}
+
+
+.profile{
+    margin-left: 45px;
 }
 
 img {
@@ -30,3 +41,72 @@ img {
     float: left;
     margin-right: 25px;
 }
+
+.find {
+    background-color: chartreuse;
+    border-width: 5px;
+    border-radius: 10px;
+    font-family:'Rubik';
+    text-align: center;
+    padding: 10px 43px 10px 20px;
+}
+
+.connections
+ {
+    background-color: powderblue;
+    border-width: 5px;
+    border-radius: 10px;
+    font-family:'Rubik';
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.apps {
+    background-color: blueviolet;
+    border-width: 5px;
+    border-radius: 10px;
+    font-family:'Rubik';
+    text-align: center;
+    padding: 10px 65px 10px 20px;
+}
+
+.aboutme {
+    font-size: 13px;
+    font-family:'Rubik';
+    text-decoration: ;
+    color: rgb(0, 0, 0);
+}
+
+.fb
+ {
+    background-color: #316FF6;
+    border-radius: 5px;
+    font-family:'Rubik';
+    text-align: center;
+    padding: 10px;
+}
+
+.divider {
+    background-color:rgba(223, 222, 221,0.5);
+    padding-left: 40px;
+    font-size: 15px;
+    font-family:'Rubik';
+}
+
+.article {
+    background-color:rgba(223, 222, 221,0.5);
+    padding: 2px 15px 5px 15px;
+    font-size: 17px;
+    font-family:'Rubik';
+    text-indent: 15px;
+}
+
+.google
+ {
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    font-family:'Rubik';
+    text-align: center;
+    padding: 10px;
+}
+
