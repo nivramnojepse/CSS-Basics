@@ -2,7 +2,7 @@
 
 
 body {
-    background: url(../Images/For\ activity\ 5/bg.jpg) fixed no-repeat center top / cover;
+    background: url(images/bg.jpg) fixed no-repeat center top / cover;
 }
 
 header {
@@ -11,7 +11,22 @@ header {
     font-family:'Rubik';
 }
 
-header > nav  {
+header > nav {
     text-align: right;
-    font-family: 'Roboto Condensed', 'sans-serif';
+    font-family: 'Roboto Condensed';
+}
+
+nav > a{
+    color:rgb(8, 8, 8);
+    font-weight:bold;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+}
+
+img {
+    border-color: aliceblue ;
+    border-style: solid;
+    border-radius: 20px;
+    float: left;
+    margin-right: 25px;
 }
